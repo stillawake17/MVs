@@ -1,0 +1,24 @@
+/* styles.css */
+.links line {
+    stroke: #999;
+    stroke-opacity: 0.6;
+  }
+  
+  .nodes circle {
+    stroke: #fff;
+    stroke-width: 1.5px;
+    fill: #000;
+  }
+  
+ 
+  #info-panel {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    width: 200px; /* Adjust as needed */
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    padding: 8px;
+    display: none; /* Hide by default */
+  }
+  

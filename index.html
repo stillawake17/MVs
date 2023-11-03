@@ -3,16 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Network Visualizations</title>
+    <title>Your Page Title</title>
+    
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!-- Include D3.js from a CDN -->
+    
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+
 </head>
 <body>
-    <h1>Welcome to Network Visualizations</h1>
-    <p>
-        Explore the networks by clicking the links below:
-    </p>
-    <ul>
-        <li><a href="network.html">View Main Network</a></li>
-        <li><a href="subnetwork.html">View Bath Subnetwork</a></li>
-    </ul>
+    This is content
+    <input type="text" id="search" placeholder="Enter a name">
+
+
+    <div id="content"></div> <!-- A div where you might want to display content -->
+
+    <div id="info-panel"></div>
+
+    <!-- Your custom script that uses D3.js -->
+    <script src="mv.js"></script>
 </body>
 </html>
